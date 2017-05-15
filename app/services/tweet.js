@@ -1,10 +1,18 @@
-const bot = require('../bot');
+const botOptions = require('../bot');
+
+const bot = botOptions.new;
 
 const postTweet = (status) => {
 
-    return bot.new.post('statuses/update', { status })
+    return bot.post('statuses/update', { status })
     .then((result) => console.log(`${result.data.text} was tweeted`))
     .catch((error) => console.log(`${JSON.stringify(error)}`));
 };
 
-module.exports = postTweet;
+const sendDm = (user, message) => {
+
+    return bot.post('direct_messages/new', { screen_name: user, text: message })
+    .then((result) => console.log(result.data));
+};
+
+module.exports = { postTweet, sendDm };
