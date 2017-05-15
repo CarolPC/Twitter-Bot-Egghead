@@ -1,0 +1,25 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "Following up the course 'Create your own twitter bots' on egghead",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarolPC/Twitter-Bot-Egghead.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarolPC/Twitter-Bot-Egghead/issues"
+  },
+  "homepage": "https://github.com/CarolPC/Twitter-Bot-Egghead#readme",
+  "dependencies": {
+    "twit": "^2.2.5"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0"
+  }
+}
