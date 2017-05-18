@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/CarolPC/Twitter-Bot-Egghead#readme",
   "dependencies": {
-    "twit": "^2.2.5"
+    "twit-promise": "^2.1.0"
   },
   "devDependencies": {
     "dotenv": "^4.0.0"
