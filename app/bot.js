@@ -1,5 +1,5 @@
 const timeout_ms = 60*1000;
-const Twit = require('Twit');
+const Twit = require('twit-promise');
 
 const botData = {
     options: ({
